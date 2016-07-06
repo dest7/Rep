@@ -4,16 +4,16 @@
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="selenium.base" href="http://10.0.16.22/" />
-<title>openReport</title>
+<title>openReportSql2005</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">openReport</td></tr>
+<tr><td rowspan="1" colspan="3">openReportSql2005</td></tr>
 </thead><tbody>
 <tr>
 	<td>open</td>
-	<td>http://developer:BBbe8zRgZz@10.0.16.22/Reports/</td>
+	<td>http://developer:developer@10.0.16.59:8080/Reports</td>
 	<td></td>
 </tr>
 <tr>
@@ -23,7 +23,7 @@
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>//a[contains(text(),'Состояние пациентов')]</td>
+	<td>//a[contains(text(),'developers')]</td>
 	<td></td>
 </tr>
 <tr>
@@ -101,6 +101,17 @@
 	<td>css=div.CancelLinkDiv</td>
 	<td>Отмена</td>
 </tr>
+<tr>
+	<td>click</td>
+	<td>id=ctl31_ctl09_NonReportContent</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=td.Acb863ad12016465589b8090e4e0c0c7713 &gt; div</td>
+	<td>Проблемы коррекции анемии</td>
+</tr>
+
 </tbody></table>
 </body>
 </html>
